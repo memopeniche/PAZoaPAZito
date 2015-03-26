@@ -3,41 +3,42 @@
 using namespace std;
 #include<stdio.h>
 #include <string>
-#define K 8
+#define K 1024
 
 class Registro{
 public:
-	char* Leer();
-	void Escribir(char B[8]);
-	Registro(char *C);
+	string Leer();
+	void Escribir(string B);
+	Registro(string C);
 private:
-	char A[8];
+	string A;
 };
 
-Registro::Registro(char C[8]="0000000a"){
-	strcpy(A, C);
+Registro::Registro(string C = "0000000a"){
+	A = C;
 };
 
-char *Registro::Leer(){
+string Registro::Leer(){
 	return A;
 }
 
-void Registro::Escribir(char B[8]){
-	strcpy(A, B);
+void Registro::Escribir(string B){
+	A = B;
 }
 
 class Memoria{
 private:
-	Registro mi[K][8];
+	Registro mi[K];
 public:
-	char* LeerRegistro(int i);
-	char * Memoria::LeerRegistro(int i)
-	{
-
-
-		//return mi[i].Leer();
-	}
+	string LeerRegistro(int i);
+	
 };
+string Memoria::LeerRegistro(int i)
+{
+	string ax = mi[i].Leer(), aux;
+	aux = ax.substr(0,8);
+	return aux;
+}
 
 
 class BUS {
@@ -61,8 +62,7 @@ int main(){
 	Registro IR = Registro(" ");
 	Registro MBR = Registro(" ");
 	AC.Escribir("00000000");
-	
 	Memoria mem;
-	cout<<mem.LeerRegistro(6);
+	cout << mem.LeerRegistro(200);
 	return 0;
 }

@@ -1,14 +1,16 @@
-﻿Compilación iniciada a las 24/03/2015 01:17:51 p. m..
-     1>Proyecto "C:\Users\ANTONIO\documents\visual studio 2013\Projects\ARQ\ARQ\ARQ.vcxproj" en el nodo 2 (Build destinos).
+﻿Build started 3/26/2015 12:30:55 PM.
+     1>Project "C:\paz\PAZoaPAZito\ARQ\ARQ\ARQ.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ARQ.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ARQ.cpp
          ARQ.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ANTONIO\documents\visual studio 2013\Projects\ARQ\Debug\ARQ.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ANTONIO\documents\visual studio 2013\Projects\ARQ\Debug\ARQ.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ANTONIO\documents\visual studio 2013\Projects\ARQ\Debug\ARQ.lib" /MACHINE:X86 Debug\ARQ.obj
-         Debug\stdafx.obj
-         ARQ.vcxproj -> C:\Users\ANTONIO\documents\visual studio 2013\Projects\ARQ\Debug\ARQ.exe
-     1>Compilación del proyecto terminada "C:\Users\ANTONIO\documents\visual studio 2013\Projects\ARQ\ARQ\ARQ.vcxproj" (Build destinos).
+     1>c:\paz\pazoapazito\arq\arq\arq.cpp(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\paz\pazoapazito\arq\arq\arq.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\paz\pazoapazito\arq\arq\arq.cpp(35): error C2535: 'char *Memoria::LeerRegistro(int)' : member function already defined or declared
+                 c:\paz\pazoapazito\arq\arq\arq.cpp(33) : see declaration of 'Memoria::LeerRegistro'
+     1>Done Building Project "C:\paz\PAZoaPAZito\ARQ\ARQ\ARQ.vcxproj" (Build target(s)) -- FAILED.
 
-Compilación correcta.
+Build FAILED.
 
-Tiempo transcurrido 00:00:04.07
+Time Elapsed 00:00:00.19

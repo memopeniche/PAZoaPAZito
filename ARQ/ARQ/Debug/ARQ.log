@@ -1,16 +1,12 @@
-﻿Build started 3/26/2015 12:30:55 PM.
-     1>Project "C:\paz\PAZoaPAZito\ARQ\ARQ\ARQ.vcxproj" on node 2 (Build target(s)).
+﻿Compilación iniciada a las 26/03/2015 12:45:00 p. m..
+     1>Proyecto "C:\PAZ\PAZoaPAZito\ARQ\ARQ\ARQ.vcxproj" en el nodo 2 (Build destinos).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ARQ.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ARQ.cpp
-         ARQ.cpp
-     1>c:\paz\pazoapazito\arq\arq\arq.cpp(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
-     1>c:\paz\pazoapazito\arq\arq\arq.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
-     1>c:\paz\pazoapazito\arq\arq\arq.cpp(35): error C2535: 'char *Memoria::LeerRegistro(int)' : member function already defined or declared
-                 c:\paz\pazoapazito\arq\arq\arq.cpp(33) : see declaration of 'Memoria::LeerRegistro'
-     1>Done Building Project "C:\paz\PAZoaPAZito\ARQ\ARQ\ARQ.vcxproj" (Build target(s)) -- FAILED.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ARQ.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>c:\paz\pazoapazito\arq\arq\stdafx.cpp : fatal error C1041: no puede abrir la base de datos de programa 'c:\paz\pazoapazito\arq\arq\debug\vc120.idb'. Si varios CL.EXE escriben en el mismo archivo .PDB, use /FS.
+     1>cl : Línea de comandos warning D9028: error de recompilación mínimo, revirtiendo a la compilación normal
+     1>Compilación del proyecto terminada "C:\PAZ\PAZoaPAZito\ARQ\ARQ\ARQ.vcxproj" (Build destinos) -- ERROR.
 
-Build FAILED.
+ERROR al compilar.
 
-Time Elapsed 00:00:00.19
+Tiempo transcurrido 00:00:00.84
